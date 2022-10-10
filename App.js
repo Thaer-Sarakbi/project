@@ -6,6 +6,7 @@ export default function App() {
   return (
     <View>
       <Text>Result</Text>
+      <Text>Hello React Native</Text>
     </View>
   );
 }
