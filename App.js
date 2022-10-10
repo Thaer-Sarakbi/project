@@ -13,6 +13,6 @@ export default function App() {
 
 const styles = StyleSheet.create({
   container: {
-    paddingHorizontal: Platform.OS = 'android' ? 20 : 40
+    backgroundColor: Platform.OS === 'android' ? 'red' : 'green'
   }
 });
