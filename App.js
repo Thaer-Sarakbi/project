@@ -1,10 +1,10 @@
 import * as React from 'react';
-import { StyleSheet, View, Text, StatusBar } from 'react-native';
+import { StyleSheet, View, Text, StatusBar, Platform } from 'react-native';
 
 export default function App() {
 
   return (
-    <View>
+    <View style={styles.container}>
       <Text>Result</Text>
       <Text>Hello React Native</Text>
     </View>
@@ -12,5 +12,7 @@ export default function App() {
 }
 
 const styles = StyleSheet.create({
- 
+  container: {
+    paddingHorizontal: Platform.OS = 'android' ? 20 : 40
+  }
 });
