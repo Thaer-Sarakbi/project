@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { StyleSheet, View, Text, TextInput, TouchableOpacity, Image, ScrollView, Platform } from 'react-native';
+import { StyleSheet, View, Text, TextInput, TouchableOpacity, Image, ScrollView } from 'react-native';
 
 export default function App() {
 
@@ -61,7 +61,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     borderRadius: 50,
     position: 'absolute',
-    bottom: Platform.OS = 'ios' ? 20 : 10,
+    bottom: 10,
     right: 10
   },
   textFloatBtn:{
